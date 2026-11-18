@@ -23,6 +23,8 @@ This document summarizes the **major changes** made to the independent VR projec
 
 ### Weapons, Reloading, and VR Interactions
 
+- Fixed deployable turret behavior in **Extraction Point**.
+- Fixed the grenade launcher, VES rifle and its scope, and deployable turrets in **Perseus Mandate**.
 - Adapted weapons unique to the expansions, including weapon placement, grip alignment, model nodes, firing, ammunition, effects, sound, damage, and VR interactions.
 - Extended the **manual VR reload system** for new weapons with different magazines, batteries, bolts, and other weapon-specific components.
 - Fixed weapon sights, grabbing interactions, manual reload highlights, and placement of interactive parts. For example, the **Advanced Rifle** required work on its sights, manual reloading, and interaction highlights.
@@ -39,10 +41,11 @@ This document summarizes the **major changes** made to the independent VR projec
 
 ### Cutscenes and Scripted Story Sequences
 
+- Cutscenes that previously appeared on a flat screen can play in stereoscopic 3D VR. Look around freely while the scene follows its scripted camera path. Switch between flat-screen and 3D playback in the in-game VR Options.
 - Fixed VR incompatibilities in scripted Perseus Mandate sequences, including camera handling, player movement, and transitions between cutscenes.
 - Corrected the sequence involving Alma, the helicopter flight, and the helicopter drop-off, addressing camera-height issues and the transition back to normal control. The corrected sequence was checked in a headset.
 - Adjusted when a character appears in the Perseus Mandate introductory cutscene so that unrestricted head movement does not reveal the character too early. Verified in VR.
-- Ported and corrected VR-specific scripted sequences and 3D cutscenes in Extraction Point; individual scenes were tested in-game. This does not claim that every cutscene received a separate documented verification.
+- Adapted and fixed scripted sequences and 3D cutscenes in Extraction Point.
 
 ### Interface, Usability, and Localization
 
@@ -58,7 +61,7 @@ This document summarizes the **major changes** made to the independent VR projec
 
 - Developed separate graphical launchers supporting both **VR** and **standard desktop** launch modes.
 - Added checks for files and configurations, launch preparation, user-profile backup and restoration, backup history, and safeguards for rolling back changes.
-- Prepared one unified **3-in-1** installation package for F.E.A.R. and both expansions. The installer lets users choose which games to modify individually.
+- Prepared one unified **3-in-1** installation package for F.E.A.R. and both expansions. The installer lets users choose which games to modify individually. The package contains only the VR modification files. Install the compatible base game or expansion separately before applying the mod.
 - Added installation, reinstallation, updates, removal, file checksum verification, backups, and recovery after failed operations.
 - VR opens in a 1280×960 window by default in all three launchers. Saved window settings take precedence. <!-- change-id: VR-FIRST-RUN-DEFAULTS-449 -->
 - New profiles in all three games use Auto Pickup by default. Existing profiles keep their saved pickup mode. <!-- change-id: VR-AUTOPICKUP-DEFAULT-456 -->
@@ -77,7 +80,7 @@ This document summarizes the **major changes** made to the independent VR projec
 
 ### Testing and Verification
 
-- **Perseus Mandate was completed from beginning to end in VR.** Gameplay testing confirmed that all three games were playable in the final tested configuration.
+- **NeuroLoc played all three campaigns from start to finish in VR**: F.E.A.R., Extraction Point, and Perseus Mandate. Some campaigns were completed more than once. Cutscene and gameplay issues encountered during those playthroughs were fixed and the affected sequences were retested in VR.
 - Verified VR startup on Steam releases. Required ASI plugins were observed loading in Extraction Point and Perseus Mandate, alongside the VR components of the original game.
 - Tested installation, updates, removal, and rollback for selected games within the unified **3-in-1** package.
 - Preserved checksums, change maps, and individual VR test confirmations for a substantial number of fixes.

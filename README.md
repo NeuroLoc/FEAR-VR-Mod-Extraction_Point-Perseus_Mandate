@@ -1,4 +1,4 @@
-# F.E.A.R. VR — An Independent Project by NeuroLoc
+# F.E.A.R. VR — Extraction Point, Perseus Mandate and the Original Campaign
 
 > **NeuroLoc release:** `v1.0.0`
 
@@ -6,7 +6,7 @@
 
 **An unofficial VR modification for F.E.A.R., F.E.A.R. Extraction Point, and F.E.A.R. Perseus Mandate.**
 
-Developed by **NeuroLoc**, this project brings VR support to both F.E.A.R. expansions and includes an extensively modified VR version of the original game.
+**NeuroLoc** developed the VR ports of **Extraction Point** and **Perseus Mandate** and extensively updated the VR modification for the original **F.E.A.R.** The package contains only the VR modification files. Install the compatible base game or expansion separately before applying the mod.
 
 The project includes hundreds of fixes and improvements involving reverse engineering, engine interface adaptations, debugging, testing, and the development of additional VR features.
 
@@ -25,6 +25,7 @@ The project is distributed as **one 3-in-1 package** containing the VR modificat
 The project includes hundreds of changes, including:
 
 - VR ports for Extraction Point and Perseus Mandate.
+- Cutscenes that previously appeared on a flat screen can play in stereoscopic 3D VR. Look around freely while the scene follows its scripted camera path. Switch between flat-screen and 3D playback in the in-game VR Options.
 - Engine compatibility fixes involving rendering, the camera, field of view (FOV), menus, and the HUD.
 - Support for expansion-specific weapons and improvements to manual VR reloading.
 - Fixes to physical object grabbing, hand interactions, and the holster system.
@@ -87,7 +88,7 @@ The language is selected during initial VR setup and can also be changed later i
 
 ## Development Status
 
-The main VR ports have been prepared and tested in a headset. **Perseus Mandate has been completed from beginning to end in VR.** The original F.E.A.R. and Extraction Point have also been confirmed playable, although a separate, fully documented completion of each game with the latest build is not claimed.
+**NeuroLoc played all three campaigns from start to finish in VR**: F.E.A.R., Extraction Point, and Perseus Mandate. Some campaigns were completed more than once. Cutscene and gameplay issues encountered during those playthroughs were fixed and the affected sequences were retested in VR.
 
 The project may receive bug fixes, compatibility improvements, and new features. Updates will be released when needed and when the author has time; there is no fixed release schedule.
 
@@ -112,7 +113,8 @@ If you encounter a problem, please open an **Issue** in this GitHub repository. 
 - The affected game.
 - Game version and store (Steam or GOG).
 - VR headset model and OpenXR runtime.
-- A description of the issue and steps to reproduce it.
+- A description of the issue and any steps you remember before it happened.
+- If possible, record the issue and share a link to the clip on YouTube or another video host.
 - Relevant logs, if available.
 
 Please check existing Issues before submitting a new report.
