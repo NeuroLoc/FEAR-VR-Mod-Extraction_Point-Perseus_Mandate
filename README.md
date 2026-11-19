@@ -70,7 +70,17 @@ VR opens in a 1280×960 window by default. You can change this in the launcher s
 New profiles use **Auto Pickup** by default.
 <!-- readme-review: VR-AUTOPICKUP-DEFAULT-456 -->
 
-**Original game executables are not included** in this modification. To uninstall the mod, run the uninstaller in the game folder. It preserves game saves and third-party plugins. Information on backups and restoration is available in the user guides included in the package.
+**Original game executables are not included** in this modification.
+
+## Updating and Uninstalling the Mod
+
+### Updating
+
+Close the game and its VR launcher. Download and extract the new 3-in-1 package from [Releases](https://github.com/NeuroLoc/FEAR-VR-Mod-Extraction_Point-Perseus_Mandate/releases). Run its installer and select the same game folder. You can install the new NeuroLoc version over the previous one. The installer keeps the original backups for full removal.
+
+### Uninstalling
+
+Close the game and its VR launcher. Run `УДАЛИТЬ VR-МОД.exe` in the game folder. The uninstaller restores the backed-up original game files and keeps game saves and third-party plugins. Keep the installation records and backup folder until removal is complete.
 
 ## Important Compatibility Notes
 
