@@ -10,6 +10,12 @@
 
 The project includes hundreds of fixes and improvements involving reverse engineering, engine interface adaptations, debugging, testing, and the development of additional VR features.
 
+## VR Gameplay Video
+
+NeuroLoc recorded VR gameplay from both **Extraction Point** and **Perseus Mandate**. The commentary is in Russian. [Watch on YouTube](https://www.youtube.com/watch?v=UFFo9qezZYE)
+
+[![Preview of the VR gameplay video for Extraction Point and Perseus Mandate](https://i.ytimg.com/vi/UFFo9qezZYE/maxresdefault.jpg)](https://www.youtube.com/watch?v=UFFo9qezZYE)
+
 ## Supported Games
 
 - **F.E.A.R.**

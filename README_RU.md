@@ -10,6 +10,12 @@
 
 В рамках проекта выполнены сотни исправлений и доработок: обратный инжиниринг, адаптация интерфейсов движка, исправление ошибок, тестирование и реализация собственных VR-функций.
 
+## Видео геймплея в VR
+
+NeuroLoc записал геймплей в VR из обоих дополнений — **Extraction Point** и **Perseus Mandate**. Комментарии в видео на русском. [Смотреть на YouTube](https://www.youtube.com/watch?v=UFFo9qezZYE)
+
+[![Превью видео с геймплеем Extraction Point и Perseus Mandate в VR](https://i.ytimg.com/vi/UFFo9qezZYE/maxresdefault.jpg)](https://www.youtube.com/watch?v=UFFo9qezZYE)
+
 ## Поддерживаемые игры
 
 - **F.E.A.R.**
