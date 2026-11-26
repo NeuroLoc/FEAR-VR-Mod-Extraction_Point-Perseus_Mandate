@@ -6,6 +6,16 @@ This document summarizes the **major changes** made to the independent VR projec
 
 ## [Unreleased]
 
+## [v1.1.0]
+
+- In all three games on GOG and Steam, the default VR layout uses buttons and grip without thumb-rest touch sensors. Tap X to interact, hold X to use a medkit, and press the right stick to open weapon selection. The menu can be bound to a tap, hold, or button combination. <!-- change-id: VR-CONTROLS-STEAM-LAYOUT-MENU-462 -->
+- The flashlight can be assigned to a button or combination. By default, squeeze Grip on the off hand at your forehead. A short vibration marks entry into the zone. A custom binding disables the gesture and vibration. A dedicated reset restores the default gesture. <!-- change-id: VR-FLASHLIGHT-BINDING-HAPTICS-461 -->
+- The VR settings menus use the same readable font size in Russian and English. Tooltips use a smaller font so their text fits. <!-- change-id: VR-HELP-COMPACT-FONT-466 -->
+- Holding Y opens the VR menu by default. Disable this backup in the button layout to reassign Hold Y. Enabling the backup clears the previous Hold Y binding, and restoring the default layout turns the backup on again. <!-- change-id: VR-MENU-BACKUP-Y-468 -->
+- The Hold Y backup menu binding also works through SteamVR. In the open menu, the dominant-hand trigger still selects items when assigned to open the menu. <!-- change-id: VR-STEAMVR-MENU-INPUT-469 -->
+- VR bindings follow the active OpenXR profile of each hand. Available buttons, stick and trackpad directions, and supported touch inputs can be assigned. Trigger and Grip support taps and holds. The changes were tested on Meta Quest 3. Testing on PICO 4 hardware is pending. <!-- change-id: VR-OPENXR-UNIVERSAL-INPUT-471 -->
+- The controller layout has a VR input diagnostics toggle, off by default. When enabled, runtime, controller, and rebinding data go into one VR_Input_Diagnostics.log file capped at 5 MiB. The in-game Help has been updated in English and Russian. <!-- change-id: VR-INPUT-CONTACT-DIAGNOSTICS-472 -->
+
 ## [v1.0.0]
 
 ### VR Ports and Engine Compatibility
