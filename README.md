@@ -1,6 +1,6 @@
 # F.E.A.R. VR — Extraction Point, Perseus Mandate and the Original Campaign
 
-> **NeuroLoc release:** `v1.1.0`
+> **NeuroLoc release:** `v1.1.1`
 
 [Русская версия](README_RU.md)
 
@@ -75,9 +75,10 @@ The VR button layout lets you rebind the menu and flashlight. Hold Y opens the m
 <!-- readme-review: VR-FLASHLIGHT-BINDING-HAPTICS-461 -->
 <!-- readme-review: VR-MENU-BACKUP-Y-468 -->
 
-The layout uses the available OpenXR inputs for each hand. Trigger and Grip support taps and holds. To capture a controller issue, turn on VR input diagnostics in the layout. VR_Input_Diagnostics.log is written to the game folder. Testing on PICO 4 hardware is pending.
+The layout uses the available OpenXR inputs for each hand. Trigger and Grip support taps and holds. To capture a controller issue, turn on VR input diagnostics in the layout. VR_Input_Diagnostics.log is written to the game folder. Touch inputs are off by default. Enable Use Touch Sensors (Experimental) to assign them, and set a touch delay between 0 and 5 seconds. A value of 0 disables the delay. A PICO user reported that VR input worked, with frequent accidental touches before this option was added. The new settings were tested by NeuroLoc on Meta Quest 3.
 <!-- readme-review: VR-OPENXR-UNIVERSAL-INPUT-471 -->
 <!-- readme-review: VR-INPUT-CONTACT-DIAGNOSTICS-472 -->
+<!-- readme-review: VR-SENSOR-SETTINGS-DELAY-476 -->
 
 To use Steam Link, set SteamVR as the OpenXR runtime in SteamVR settings. Then open the desktop in Steam Link and start the game’s VR launcher. To switch back to Virtual Desktop, select VDXR in Virtual Desktop Streamer settings.
 

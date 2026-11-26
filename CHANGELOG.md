@@ -6,6 +6,11 @@ This document summarizes the **major changes** made to the independent VR projec
 
 ## [Unreleased]
 
+## [v1.1.1]
+
+- Touch inputs and thumb rests are now off by default. Enable Use Touch Sensors (Experimental) to use them in bindings and combinations. Saved touch bindings are paused while the option is off. The default touch delay is 0.3 seconds. <!-- change-id: VR-SENSOR-SETTINGS-DELAY-476 -->
+- Set the touch delay from 0 to 5 seconds in 0.1-second steps. A value of 0 disables the delay. Updated the tooltips for the touch delay and the Hold Y backup menu option. <!-- change-id: VR-SENSOR-NO-DELAY-478 -->
+
 ## [v1.1.0]
 
 - In all three games on GOG and Steam, the default VR layout uses buttons and grip without thumb-rest touch sensors. Tap X to interact, hold X to use a medkit, and press the right stick to open weapon selection. The menu can be bound to a tap, hold, or button combination. <!-- change-id: VR-CONTROLS-STEAM-LAYOUT-MENU-462 -->
