@@ -67,8 +67,14 @@ Some features and fixes apply only to specific games. This is a summary, not a c
 VR opens in a 1280×960 window by default. You can change this in the launcher settings. Tutorial cards are enabled for new profiles.
 <!-- readme-review: VR-FIRST-RUN-DEFAULTS-449 -->
 
-The default layout works without thumb-rest touch sensors. Choose **Restore This Layout** to apply the defaults to a previously customized layout.
+To use Steam Link, set SteamVR as the OpenXR runtime in SteamVR settings. Then open the desktop in Steam Link and start the game’s VR launcher. To switch back to Virtual Desktop, select VDXR in Virtual Desktop Streamer settings.
 
+New profiles use **Auto Pickup** by default.
+<!-- readme-review: VR-AUTOPICKUP-DEFAULT-456 -->
+
+**Original game executables are not included** in this modification.
+
+## Controls
 
 The VR button layout lets you rebind the menu and flashlight. Hold Y opens the menu by default. You can disable this backup in the layout settings. The flashlight has a dedicated reset that restores the forehead gesture.
 <!-- readme-review: VR-CONTROLS-STEAM-LAYOUT-MENU-462 -->
@@ -79,13 +85,6 @@ The layout uses the available OpenXR inputs for each hand. Trigger and Grip supp
 <!-- readme-review: VR-OPENXR-UNIVERSAL-INPUT-471 -->
 <!-- readme-review: VR-INPUT-CONTACT-DIAGNOSTICS-472 -->
 <!-- readme-review: VR-SENSOR-SETTINGS-DELAY-476 -->
-
-To use Steam Link, set SteamVR as the OpenXR runtime in SteamVR settings. Then open the desktop in Steam Link and start the game’s VR launcher. To switch back to Virtual Desktop, select VDXR in Virtual Desktop Streamer settings.
-
-New profiles use **Auto Pickup** by default.
-<!-- readme-review: VR-AUTOPICKUP-DEFAULT-456 -->
-
-**Original game executables are not included** in this modification.
 
 ## Updating and Uninstalling the Mod
 
