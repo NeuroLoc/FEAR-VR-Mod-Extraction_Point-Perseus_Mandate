@@ -98,6 +98,9 @@ Close the game and its VR launcher. Run `УДАЛИТЬ VR-МОД.exe` in the ga
 
 ## Important Compatibility Notes
 
+> [!IMPORTANT]
+> NeuroLoc fully tested all three games on GOG and Steam using **Meta Quest 3**, the only headset available to him. NeuroLoc has not tested any other headsets. Other headsets may work through OpenXR.
+
 - The installer supports compatible Steam and GOG versions, but behavior may vary depending on the exact build and the condition of the installed game files.
 - For **Extraction Point** and **Perseus Mandate**, the launchers can automatically prepare the executables for a larger address space (**Large Address Aware, LAA**) when starting in VR, with backups created before modifying files.
 - **Original F.E.A.R. on Steam:** setting the LAA flag on the tested Steam executable causes a launch error. The Steam executable for the original game is therefore **not modified automatically**. VR support is still available, but the game's usable address space may be limited. The installer displays a notice explaining this difference.
