@@ -139,6 +139,10 @@ This is an independent, **unofficial** project by **NeuroLoc**. **TheFreeMike is
 
 This modification is also not an official product of, or endorsed by, the developers or publishers of the original F.E.A.R. games.
 
+## Acknowledgments
+
+Special thanks to [Pavel419](https://www.youtube.com/@Pavel419) for helping test the mod on PICO 4! His testing helped fix several critical controller issues that occurred only on that headset and did not occur on my Meta Quest 3. It also led to substantial improvements to the controls.
+
 ## Bug Reports and Technical Support
 
 If you encounter a problem, please open an **Issue** in this GitHub repository. If possible, include:
